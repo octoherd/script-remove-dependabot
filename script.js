@@ -2,8 +2,8 @@
  * Create a CODE_OF_CONDUCT.md file unless it already exists.
  * Ignores forks and archived repositories
  *
- * @param {import('@octoherd/octokit').Octokit} octokit
- * @param {import('@octokit/openapi-types').components["schemas"]["repository"]} repository
+ * @param {import('@octoherd/cli').Octokit} octokit
+ * @param {import('@octoherd/cli').Repository} repository
  */
 export async function script(octokit, repository) {
   if (repository.archived) {
