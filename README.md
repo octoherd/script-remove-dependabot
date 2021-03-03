@@ -8,7 +8,7 @@
 git clone https://github.com/octoherd/script-remove-dependabot.git
 $ npx @octoherd/cli \
   --octoherd-token 0123456789012345678901234567890123456789 \
-  scripts/remove-dependabot/script.js \
+  script-remove-dependabot/script.js \
   "octokit/*"
 ```
 
