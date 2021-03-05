@@ -23,5 +23,6 @@
   },
   "bin": {
     "octoherd-script-remove-dependabot": "./cli.js"
-  }
+  },
+  "repository": "github:octoherd/script-remove-dependabot"
 }
