@@ -7,7 +7,7 @@
 ```
 $ npx @octoherd/script-remove-dependabot \
   --octoherd-token 0123456789012345678901234567890123456789 \
-  "octokit/*"
+  "octoherd/*"
 ```
 
 ## Licenses
